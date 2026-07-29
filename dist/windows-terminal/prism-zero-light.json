@@ -1,0 +1,27 @@
+{
+  "schemes": [
+    {
+      "name": "Prism Zero Light",
+      "background": "#ffffff",
+      "foreground": "#000000",
+      "cursorColor": "#000000",
+      "selectionBackground": "#cbe2fa",
+      "black": "#000000",
+      "red": "#d93556",
+      "green": "#669900",
+      "yellow": "#ee9900",
+      "blue": "#008ac6",
+      "purple": "#a8005e",
+      "cyan": "#008899",
+      "white": "#b8c0c7",
+      "brightBlack": "#5a6773",
+      "brightRed": "#e65b77",
+      "brightGreen": "#88cc00",
+      "brightYellow": "#ffb022",
+      "brightBlue": "#00aef9",
+      "brightPurple": "#db007b",
+      "brightCyan": "#00b5cc",
+      "brightWhite": "#5a6773"
+    }
+  ]
+}

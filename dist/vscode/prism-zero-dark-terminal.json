@@ -1,0 +1,27 @@
+{
+  "name": "Prism Zero Dark Terminal",
+  "description": "Generated terminal colors. Merge into workbench.colorCustomizations or a theme colors object. Regenerate with tools/gen_terminal.py.",
+  "colors": {
+    "terminal.foreground": "#bfbdb7",
+    "terminal.background": "#0c0e13",
+    "terminal.selectionBackground": "#2a4a6a",
+    "terminalCursor.foreground": "#bfbdb7",
+    "terminalCursor.background": "#bfbdb7",
+    "terminal.ansiBlack": "#252a33",
+    "terminal.ansiRed": "#ff5c7a",
+    "terminal.ansiGreen": "#b4e83a",
+    "terminal.ansiYellow": "#ffb020",
+    "terminal.ansiBlue": "#3ec0ff",
+    "terminal.ansiMagenta": "#f050b8",
+    "terminal.ansiCyan": "#20d4ec",
+    "terminal.ansiWhite": "#d0cec8",
+    "terminal.ansiBrightBlack": "#9aabba",
+    "terminal.ansiBrightRed": "#ff8aa0",
+    "terminal.ansiBrightGreen": "#d0f060",
+    "terminal.ansiBrightYellow": "#ffd060",
+    "terminal.ansiBrightBlue": "#70d4ff",
+    "terminal.ansiBrightMagenta": "#ff80d0",
+    "terminal.ansiBrightCyan": "#60eef8",
+    "terminal.ansiBrightWhite": "#ffffff"
+  }
+}

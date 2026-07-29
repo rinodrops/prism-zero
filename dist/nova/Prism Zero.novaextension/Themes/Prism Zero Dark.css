@@ -1,0 +1,174 @@
+meta {
+  -theme-display-name: "Prism Zero Dark";
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+
+meta.window {
+  background: #0c0e13;
+  border: #2a2e38;
+}
+meta.titlebar {
+  background: #12151c;
+  color: #bfbdb7;
+  border: #2a2e38;
+}
+meta.titlebar.inactive {
+  background-color: #12151c;
+  color: #8a9ba8;
+}
+meta.button {
+  background: #161a22;
+  border: #2a2e38;
+  color: #bfbdb7;
+}
+meta.button.highlighted {
+  background: #2a2e38;
+  border: #2a2e38;
+  color: #bfbdb7;
+}
+meta.textfield,
+meta.textfield.highlighted {
+  background: #0c0e13;
+  border: #2a2e38;
+}
+
+meta.document {
+  background: #0c0e13;
+  border: #2a2e38;
+}
+meta.text {
+  color: #bfbdb7;
+}
+meta.text.invisible {
+  color: #8a8a8a;
+}
+meta.text.selected {
+  background: #2a4a6a;
+}
+meta.cursor {
+  background-color: #12151c;
+}
+meta.indentguide {
+  border-color: #2a2e38;
+}
+meta.gutter {
+  color: #5a6270;
+}
+meta.gutter.selected {
+  background: #1a1e28;
+  color: #bfbdb7;
+}
+
+comment {
+  color: #8a9ba8;
+}
+processing {
+  color: #3ec0ff;
+}
+bracket {
+  color: #8a8a8a;
+}
+operator {
+  color: #d0b090;
+}
+invalid {
+  color: #ff5c7a;
+}
+keyword {
+  color: #3ec0ff;
+}
+keyword.self {
+  color: #ffb020;
+}
+value {
+  color: #ffb020;
+}
+identifier {
+  color: #bfbdb7;
+}
+identifier.type,
+identifier.constant,
+identifier.global,
+identifier.variable {
+  color: #ffb020;
+}
+identifier.property.name,
+identifier.key {
+  color: #f050b8;
+}
+identifier.function,
+identifier.method,
+identifier.method.name {
+  color: #ff5c7a;
+}
+identifier.argument {
+  color: #ffb020;
+}
+string,
+string-template,
+cdata,
+regex {
+  color: #b4e83a;
+}
+string.escape,
+regex.escape {
+  color: #ffb020;
+}
+markup.heading {
+  font-weight: bold;
+  color: #3ec0ff;
+}
+markup.bold {
+  font-weight: bold;
+}
+markup.italic {
+  font-style: italic;
+}
+markup.link {
+  color: #3ec0ff;
+}
+definition {
+  color: #3ec0ff;
+}
+tag.name,
+tag.framework.name {
+  color: #b4e83a;
+}
+tag.attribute.name,
+tag.framework.attribute.name {
+  color: #f050b8;
+}
+tag.attribute.value,
+tag.attribute.value.delimiter {
+  color: #b4e83a;
+}
+style.selector.element {
+  color: #b4e83a;
+}
+style.selector.identifier.id,
+style.selector.identifier.class,
+style.value.keyword {
+  color: #3ec0ff;
+}
+style.value.property.identifier {
+  color: #f050b8;
+}
+
+terminal.black { color: #252a33; }
+terminal.red { color: #ff5c7a; }
+terminal.green { color: #b4e83a; }
+terminal.yellow { color: #ffb020; }
+terminal.blue { color: #3ec0ff; }
+terminal.magenta { color: #f050b8; }
+terminal.cyan { color: #20d4ec; }
+terminal.white { color: #d0cec8; }
+terminal.bright-black { color: #9aabba; }
+terminal.bright-red { color: #ff8aa0; }
+terminal.bright-green { color: #d0f060; }
+terminal.bright-yellow { color: #ffd060; }
+terminal.bright-blue { color: #70d4ff; }
+terminal.bright-magenta { color: #ff80d0; }
+terminal.bright-cyan { color: #60eef8; }
+terminal.bright-white { color: #ffffff; }

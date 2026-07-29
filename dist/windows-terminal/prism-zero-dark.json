@@ -1,0 +1,27 @@
+{
+  "schemes": [
+    {
+      "name": "Prism Zero Dark",
+      "background": "#0c0e13",
+      "foreground": "#bfbdb7",
+      "cursorColor": "#bfbdb7",
+      "selectionBackground": "#2a4a6a",
+      "black": "#252a33",
+      "red": "#ff5c7a",
+      "green": "#b4e83a",
+      "yellow": "#ffb020",
+      "blue": "#3ec0ff",
+      "purple": "#f050b8",
+      "cyan": "#20d4ec",
+      "white": "#d0cec8",
+      "brightBlack": "#9aabba",
+      "brightRed": "#ff8aa0",
+      "brightGreen": "#d0f060",
+      "brightYellow": "#ffd060",
+      "brightBlue": "#70d4ff",
+      "brightPurple": "#ff80d0",
+      "brightCyan": "#60eef8",
+      "brightWhite": "#ffffff"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+meta {
+  -theme-display-name: "Prism Zero Light";
+  -theme-interface-style: light;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+
+meta.window {
+  background: #ffffff;
+  border: #e1e4e8;
+}
+meta.titlebar {
+  background: #fafbfc;
+  color: #24292e;
+  border: #e1e4e8;
+}
+meta.titlebar.inactive {
+  background-color: #fafbfc;
+  color: #586069;
+}
+meta.button {
+  background: #f1f2f3;
+  border: #e1e4e8;
+  color: #24292e;
+}
+meta.button.highlighted {
+  background: #e1e4e8;
+  border: #e1e4e8;
+  color: #24292e;
+}
+meta.textfield,
+meta.textfield.highlighted {
+  background: #ffffff;
+  border: #e1e4e8;
+}
+
+meta.document {
+  background: #ffffff;
+  border: #e1e4e8;
+}
+meta.text {
+  color: #000000;
+}
+meta.text.invisible {
+  color: #999999;
+}
+meta.text.selected {
+  background: #b3d4fc;
+}
+meta.cursor {
+  background-color: #fafbfc;
+}
+meta.indentguide {
+  border-color: #e1e4e8;
+}
+meta.gutter {
+  color: #cccccc;
+}
+meta.gutter.selected {
+  background: #fffbdd;
+  color: #24292e;
+}
+
+comment {
+  color: #708090;
+}
+processing {
+  color: #0077aa;
+}
+bracket {
+  color: #999999;
+}
+operator {
+  color: #9a6e3a;
+}
+invalid {
+  color: #d93556;
+}
+keyword {
+  color: #0077aa;
+}
+keyword.self {
+  color: #ee9900;
+}
+value {
+  color: #ee9900;
+}
+identifier {
+  color: #000000;
+}
+identifier.type,
+identifier.constant,
+identifier.global,
+identifier.variable {
+  color: #ee9900;
+}
+identifier.property.name,
+identifier.key {
+  color: #990055;
+}
+identifier.function,
+identifier.method,
+identifier.method.name {
+  color: #dd4a68;
+}
+identifier.argument {
+  color: #ee9900;
+}
+string,
+string-template,
+cdata,
+regex {
+  color: #669900;
+}
+string.escape,
+regex.escape {
+  color: #ee9900;
+}
+markup.heading {
+  font-weight: bold;
+  color: #0077aa;
+}
+markup.bold {
+  font-weight: bold;
+}
+markup.italic {
+  font-style: italic;
+}
+markup.link {
+  color: #0077aa;
+}
+definition {
+  color: #0077aa;
+}
+tag.name,
+tag.framework.name {
+  color: #669900;
+}
+tag.attribute.name,
+tag.framework.attribute.name {
+  color: #990055;
+}
+tag.attribute.value,
+tag.attribute.value.delimiter {
+  color: #669900;
+}
+style.selector.element {
+  color: #669900;
+}
+style.selector.identifier.id,
+style.selector.identifier.class,
+style.value.keyword {
+  color: #0077aa;
+}
+style.value.property.identifier {
+  color: #990055;
+}
+
+terminal.black { color: #000000; }
+terminal.red { color: #d93556; }
+terminal.green { color: #669900; }
+terminal.yellow { color: #ee9900; }
+terminal.blue { color: #008ac6; }
+terminal.magenta { color: #a8005e; }
+terminal.cyan { color: #008899; }
+terminal.white { color: #b8c0c7; }
+terminal.bright-black { color: #5a6773; }
+terminal.bright-red { color: #e65b77; }
+terminal.bright-green { color: #88cc00; }
+terminal.bright-yellow { color: #ffb022; }
+terminal.bright-blue { color: #00aef9; }
+terminal.bright-magenta { color: #db007b; }
+terminal.bright-cyan { color: #00b5cc; }
+terminal.bright-white { color: #5a6773; }

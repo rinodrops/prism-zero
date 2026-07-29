@@ -1,0 +1,48 @@
+{
+  "name": "prism-zero",
+  "displayName": "Prism Zero",
+  "description": "Prism Zero Light and Dark themes for Visual Studio Code and Cursor.",
+  "version": "1.0.0",
+  "publisher": "rino",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "prism",
+    "prismjs"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0c0e13",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rinodrops/prism-zero"
+  },
+  "bugs": {
+    "url": "https://github.com/rinodrops/prism-zero/issues"
+  },
+  "homepage": "https://github.com/rinodrops/prism-zero",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Prism Zero Light",
+        "uiTheme": "vs",
+        "path": "./themes/prism-zero-light-color-theme.json"
+      },
+      {
+        "label": "Prism Zero Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prism-zero-dark-color-theme.json"
+      }
+    ]
+  }
+}

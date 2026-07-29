@@ -1,0 +1,12 @@
+{
+  "identifier": "emotiongraphics.jp.PrismZero",
+  "name": "Prism Zero",
+  "organization": "emotiongraphics.jp",
+  "description": "Prism Zero Light and Dark themes for Panic Nova.",
+  "version": "1.0.5",
+  "categories": [
+    "themes"
+  ],
+  "bugs": "https://github.com/rinodrops/prism-zero/issues",
+  "repository": "https://github.com/rinodrops/prism-zero"
+}
