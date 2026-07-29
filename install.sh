@@ -186,15 +186,25 @@ install_ptyxis() {
 }
 
 print_manual_tips() {
-  root=$1
+  # Prefer durable https downloads — archive temp paths are removed on exit.
+  light_url="${RAW_BASE}/dist/iterm/Prism%20Zero%20Light.itermcolors"
+  dark_url="${RAW_BASE}/dist/iterm/Prism%20Zero%20Dark.itermcolors"
+  dest="${HOME}/Downloads"
   say ""
-  say "Manual import (not installed automatically):"
-  say "  iTerm 2 / Prompt 3 presets:"
-  say "    ${root}/dist/iterm/Prism Zero Light.itermcolors"
-  say "    ${root}/dist/iterm/Prism Zero Dark.itermcolors"
-  say "  (or ${RAW_BASE}/dist/iterm/Prism%20Zero%20Light.itermcolors)"
-  say "  Windows Terminal: see install-windows-terminal.ps1"
-  say "  VS Code / Cursor / Nova: Marketplace (see README)"
+  say "iTerm 2 / Prompt 3 (manual import):"
+  say "  Download a preset, then Import in the app:"
+  say ""
+  say "    mkdir -p \"${dest}\""
+  say "    curl -fsSL -o \"${dest}/Prism Zero Light.itermcolors\" \\"
+  say "      ${light_url}"
+  say "    curl -fsSL -o \"${dest}/Prism Zero Dark.itermcolors\" \\"
+  say "      ${dark_url}"
+  say ""
+  say "  iTerm 2: Profiles → Colors → Color Presets… → Import"
+  say "  Prompt 3: Settings → Themes → gear → Import"
+  say ""
+  say "Windows Terminal: see install-windows-terminal.ps1"
+  say "VS Code / Cursor / Nova: Marketplace (see README)"
 }
 
 main() {
@@ -215,7 +225,7 @@ main() {
     say "skip Ptyxis (not detected)"
   fi
 
-  print_manual_tips "${root}"
+  print_manual_tips
 
   if [ "${installed}" -eq 0 ]; then
     say ""

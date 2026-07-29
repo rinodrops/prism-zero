@@ -91,7 +91,7 @@ Or (after this repository is on GitHub):
 curl -fsSL https://raw.githubusercontent.com/rinodrops/prism-zero/main/install.sh | sh
 ```
 
-iTerm 2 and Prompt 3 stay manual import (paths are printed by the script). Windows Terminal has its own script below.
+iTerm 2 and Prompt 3 stay manual import; the script prints `curl` download commands. Windows Terminal has its own script below.
 
 ### Neovim
 
@@ -109,8 +109,20 @@ Plugin layout (optional): [`dist/nvim/prism-zero.nvim/`](dist/nvim/prism-zero.nv
 
 ### iTerm 2
 
-1. Import [`dist/iterm/Prism Zero Light.itermcolors`](dist/iterm/Prism%20Zero%20Light.itermcolors) or [`Prism Zero Dark.itermcolors`](dist/iterm/Prism%20Zero%20Dark.itermcolors).
-2. Apply the preset to your profile.
+Download a preset, then import it and apply it to your profile:
+
+```bash
+mkdir -p ~/Downloads
+curl -fsSL -o ~/Downloads/"Prism Zero Light.itermcolors" \
+  https://raw.githubusercontent.com/rinodrops/prism-zero/main/dist/iterm/Prism%20Zero%20Light.itermcolors
+# or Dark:
+curl -fsSL -o ~/Downloads/"Prism Zero Dark.itermcolors" \
+  https://raw.githubusercontent.com/rinodrops/prism-zero/main/dist/iterm/Prism%20Zero%20Dark.itermcolors
+```
+
+iTerm 2: Profiles → Colors → Color Presets… → Import, then select the preset.
+
+From a clone, you can also import [`dist/iterm/Prism Zero Light.itermcolors`](dist/iterm/Prism%20Zero%20Light.itermcolors) or [`Prism Zero Dark.itermcolors`](dist/iterm/Prism%20Zero%20Dark.itermcolors) directly.
 
 ### Prompt 3
 

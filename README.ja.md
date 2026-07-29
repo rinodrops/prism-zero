@@ -91,7 +91,7 @@ sh install.sh
 curl -fsSL https://raw.githubusercontent.com/rinodrops/prism-zero/main/install.sh | sh
 ```
 
-iTerm 2 と Prompt 3 は手動インポートのままです（パスはスクリプトが表示します）。Windows Terminal は下記の専用スクリプトを使います。
+iTerm 2 と Prompt 3 は手動インポートのままです（スクリプトが `curl` での取得コマンドを表示します）。Windows Terminal は下記の専用スクリプトを使います。
 
 ### Neovim
 
@@ -109,8 +109,20 @@ iTerm 2 と Prompt 3 は手動インポートのままです（パスはスク�
 
 ### iTerm 2
 
-1. [`dist/iterm/Prism Zero Light.itermcolors`](dist/iterm/Prism%20Zero%20Light.itermcolors) または [`Prism Zero Dark.itermcolors`](dist/iterm/Prism%20Zero%20Dark.itermcolors) をインポートします。
-2. プロファイルにプリセットを適用します。
+プリセットをダウンロードしてインポートし、プロファイルに適用します:
+
+```bash
+mkdir -p ~/Downloads
+curl -fsSL -o ~/Downloads/"Prism Zero Light.itermcolors" \
+  https://raw.githubusercontent.com/rinodrops/prism-zero/main/dist/iterm/Prism%20Zero%20Light.itermcolors
+# または Dark:
+curl -fsSL -o ~/Downloads/"Prism Zero Dark.itermcolors" \
+  https://raw.githubusercontent.com/rinodrops/prism-zero/main/dist/iterm/Prism%20Zero%20Dark.itermcolors
+```
+
+iTerm 2: Profiles → Colors → Color Presets… → Import から取り込み、プリセットを選びます。
+
+クローンがある場合は [`dist/iterm/Prism Zero Light.itermcolors`](dist/iterm/Prism%20Zero%20Light.itermcolors) または [`Prism Zero Dark.itermcolors`](dist/iterm/Prism%20Zero%20Dark.itermcolors) を直接インポートしても構いません。
 
 ### Prompt 3
 
