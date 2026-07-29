@@ -7,11 +7,11 @@ Light and Dark color themes for [Panic Nova](https://nova.app/), based on [Prism
 
 ### Light
 
-![Prism Zero Light](https://emotiongraphics.jp/tmp/prism-zero/docs/light-nova.webp)
+![Prism Zero Light](https://raw.githubusercontent.com/rinodrops/prism-zero/main/screenshots/light-nova.webp)
 
 ### Dark
 
-![Prism Zero Dark](https://emotiongraphics.jp/tmp/prism-zero/docs/dark-nova.webp)
+![Prism Zero Dark](https://raw.githubusercontent.com/rinodrops/prism-zero/main/screenshots/dark-nova.webp)
 
 ## Themes
 

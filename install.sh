@@ -25,7 +25,7 @@ cleanup() {
 }
 trap cleanup EXIT
 
-say() { printf '%s\n' "$*"; }
+say() { printf '%s\n' "$*" >&2; }
 err() { printf 'prism-zero: %s\n' "$*" >&2; }
 
 resolve_repo_root() {
@@ -192,7 +192,7 @@ print_manual_tips() {
   say "  iTerm 2 / Prompt 3 presets:"
   say "    ${root}/dist/iterm/Prism Zero Light.itermcolors"
   say "    ${root}/dist/iterm/Prism Zero Dark.itermcolors"
-  say "  (or ${RAW_BASE}/dist/iterm/… after the repo is on GitHub)"
+  say "  (or ${RAW_BASE}/dist/iterm/Prism%20Zero%20Light.itermcolors)"
   say "  Windows Terminal: see install-windows-terminal.ps1"
   say "  VS Code / Cursor / Nova: Marketplace (see README)"
 }

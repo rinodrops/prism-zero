@@ -2,7 +2,7 @@
   "name": "prism-zero",
   "displayName": "Prism Zero",
   "description": "Prism Zero Light and Dark themes for Visual Studio Code and Cursor.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "rino",
   "license": "MIT",
   "engines": {

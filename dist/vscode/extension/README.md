@@ -6,15 +6,15 @@ Light and Dark color themes for Visual Studio Code and Cursor, based on [PrismJS
 
 ### Visual Studio Code
 
-![Prism Zero Light in Visual Studio Code](https://emotiongraphics.jp/tmp/prism-zero/docs/light-vscode.webp)
+![Prism Zero Light in Visual Studio Code](https://raw.githubusercontent.com/rinodrops/prism-zero/main/screenshots/light-vscode.webp)
 
-![Prism Zero Dark in Visual Studio Code](https://emotiongraphics.jp/tmp/prism-zero/docs/dark-vscode.webp)
+![Prism Zero Dark in Visual Studio Code](https://raw.githubusercontent.com/rinodrops/prism-zero/main/screenshots/dark-vscode.webp)
 
 ### Cursor
 
-![Prism Zero Light in Cursor](https://emotiongraphics.jp/tmp/prism-zero/docs/light-cursor.webp)
+![Prism Zero Light in Cursor](https://raw.githubusercontent.com/rinodrops/prism-zero/main/screenshots/light-cursor.webp)
 
-![Prism Zero Dark in Cursor](https://emotiongraphics.jp/tmp/prism-zero/docs/dark-cursor.webp)
+![Prism Zero Dark in Cursor](https://raw.githubusercontent.com/rinodrops/prism-zero/main/screenshots/dark-cursor.webp)
 
 ## Themes
 
