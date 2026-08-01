@@ -174,17 +174,15 @@ body {
 
 #write table th,
 #write table td {
-  border: 1px solid var(--prism-zero-border);
-  padding: 6px 13px;
+  border: none;
+  border-bottom: 1px solid var(--prism-zero-border);
+  padding: 0.55em 0.9em;
+  background-color: transparent;
 }
 
 #write table th {
-  background-color: var(--item-hover-bg-color);
   font-weight: 600;
-}
-
-#write table tr:nth-child(2n) {
-  background-color: var(--prism-zero-status-bg);
+  text-align: left;
 }
 
 #write code,
