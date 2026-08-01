@@ -4,7 +4,7 @@
 
 [PrismJS](https://prismjs.com/) の構文色（UI クロームとダーク背景向けに調整）を基にした、エディタ／端末向けカラーテーマです。Light / Dark の両方を含みます。
 
-対応: Visual Studio Code、Cursor、Panic Nova、Neovim、iTerm 2、Prompt 3、Ptyxis、Windows Terminal。
+対応: Visual Studio Code、Cursor、Panic Nova、Neovim、Typora、iTerm 2、Prompt 3、Ptyxis、Windows Terminal。
 
 ## スクリーンショット
 
@@ -92,6 +92,12 @@ curl -fsSL https://raw.githubusercontent.com/rinodrops/prism-zero/main/install.s
 ```
 
 iTerm 2 と Prompt 3 は手動インポートのままです（スクリプトが `curl` での取得コマンドを表示します）。Windows Terminal は下記の専用スクリプトを使います。
+
+### Typora
+
+[`dist/typora/prism-zero-light.css`](dist/typora/prism-zero-light.css) および／または [`prism-zero-dark.css`](dist/typora/prism-zero-dark.css) を Typora のテーマフォルダ（環境設定 → 外観 → テーマフォルダを開く）にコピーし、必要なら Typora を再起動してから、Themes メニューで **Prism Zero Light** または **Prism Zero Dark** を選びます。
+
+ファイル名は小文字とハイフンのみにしてください（Typora の制約）。
 
 ### Neovim
 

@@ -16,5 +16,6 @@ End-user installers (repo root, not under `dist/`):
 | [`vscode/prism-zero-*-terminal*.json`](vscode/)                      | Terminal-only color references (optional)                |
 | [`nova/Prism Zero.novaextension/`](nova/Prism%20Zero.novaextension/) | Panic Nova themes (prefer Extension Library when listed) |
 | [`nvim/`](nvim/)                                                     | Neovim colorscheme files                                 |
+| [`typora/`](typora/)                                                 | Typora theme CSS (copy into theme folder)                |
 
 Do not edit these files by hand. VSIX builds are attached to GitHub Releases (not stored here).
