@@ -161,3 +161,14 @@ Manual merge: copy a `schemes` entry from [`prism-zero-light.json`](dist/windows
 ## License
 
 MIT — Copyright (c) Rino, eMotionGraphics Inc.
+
+## Changelog
+
+### 1.1.0
+
+- Align package version with Prism Zero 1.1.0
+- Document Typora among supported apps in the Extension README
+
+### 1.0.0
+
+- Initial release
