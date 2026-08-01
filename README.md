@@ -4,7 +4,7 @@
 
 Color themes for editors and terminals, based on [PrismJS](https://prismjs.com/) syntax colors (adjusted for UI chrome and dark backgrounds). Light and Dark appearances are included.
 
-Supported: Visual Studio Code, Cursor, Panic Nova, Neovim, iTerm 2, Prompt 3, Ptyxis, Windows Terminal.
+Supported: Visual Studio Code, Cursor, Panic Nova, Neovim, Typora, iTerm 2, Prompt 3, Ptyxis, Windows Terminal.
 
 ## Screenshots
 
@@ -92,6 +92,12 @@ curl -fsSL https://raw.githubusercontent.com/rinodrops/prism-zero/main/install.s
 ```
 
 iTerm 2 and Prompt 3 stay manual import; the script prints `curl` download commands. Windows Terminal has its own script below.
+
+### Typora
+
+Copy [`dist/typora/prism-zero-light.css`](dist/typora/prism-zero-light.css) and/or [`prism-zero-dark.css`](dist/typora/prism-zero-dark.css) into Typora’s theme folder (Preferences → Appearance → Open Theme Folder), restart Typora if needed, then choose **Prism Zero Light** or **Prism Zero Dark** from the Themes menu.
+
+Filenames must stay lowercase with hyphens only (Typora requirement).
 
 ### Neovim
 

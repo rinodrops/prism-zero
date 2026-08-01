@@ -34,4 +34,4 @@ code --install-extension prism-zero-*.vsix
 
 ## More of Prism Zero
 
-Prism Zero also provides matching Light and Dark themes for Visual Studio Code, Cursor, Panic Nova, Neovim, iTerm 2, Prompt 3, Ptyxis, Windows Terminal. Theme files and install notes: [https://github.com/rinodrops/prism-zero](https://github.com/rinodrops/prism-zero).
+Prism Zero also provides matching Light and Dark themes for Visual Studio Code, Cursor, Panic Nova, Neovim, Typora, iTerm 2, Prompt 3, Ptyxis, Windows Terminal. Theme files and install notes: [https://github.com/rinodrops/prism-zero](https://github.com/rinodrops/prism-zero).

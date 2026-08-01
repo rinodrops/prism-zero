@@ -1,0 +1,409 @@
+/* Generated file. Do not edit by hand.
+ * Regenerate: python3 tools/gen_typora_theme.py
+ */
+
+:root {
+  --bg-color: #0c0e13;
+  --text-color: #bfbdb7;
+  --md-char-color: #8a8a8a;
+  --meta-content-color: #8a9ba8;
+  --primary-color: #54a3ff;
+  --primary-btn-border-color: #3ec0ff;
+  --primary-btn-text-color: #0c0e13;
+  --window-border: 1px solid #2a2e38;
+  --active-file-bg-color: #161a22;
+  --active-file-text-color: #bfbdb7;
+  --active-file-border-color: #e36209;
+  --side-bar-bg-color: #0c0e13;
+  --item-hover-bg-color: #161a22;
+  --item-hover-text-color: #bfbdb7;
+  --control-text-color: #8a9ba8;
+  --control-text-hover-color: #bfbdb7;
+  --heading-char-color: #8a8a8a;
+  --select-text-bg-color: #2a4a6a;
+  --select-text-font-color: inherit;
+  --code-color: #cb6861;
+  --rawblock-edit-panel-bd: #1a1e28;
+  --monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --prism-zero-codeblock-bg: #1a1e28;
+  --prism-zero-codeblock-fg: #bfbdb7;
+  --prism-zero-border: #2a2e38;
+  --prism-zero-link: #3ec0ff;
+  --prism-zero-heading: #bfbdb7;
+  --prism-zero-quote: #8a9ba8;
+  --prism-zero-line-highlight: #1a1e28;
+  --prism-zero-status-bg: #12151c;
+  --prism-zero-status-fg: #bfbdb7;
+  --prism-zero-line-number: #5a6270;
+  --prism-zero-comment: #8a9ba8;
+  --prism-zero-punctuation: #8a8a8a;
+  --prism-zero-property: #f050b8;
+  --prism-zero-string: #b4e83a;
+  --prism-zero-operator: #d0b090;
+  --prism-zero-keyword: #3ec0ff;
+  --prism-zero-function: #ff5c7a;
+  --prism-zero-variable: #ffb020;
+  --prism-zero-syntax-fg: #bfbdb7;
+  --prism-zero-syntax-selection: #2a4a6a;
+  --prism-zero-tab-inactive: #8a9ba8;
+}
+
+html {
+  font-size: 16px;
+  background-color: var(--bg-color);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+}
+
+#write {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 30px;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+#write p {
+  line-height: 1.6;
+}
+
+#write h1,
+#write h2,
+#write h3,
+#write h4,
+#write h5,
+#write h6 {
+  color: var(--prism-zero-heading);
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#write h1 {
+  font-size: 2rem;
+  border-bottom: 1px solid var(--prism-zero-border);
+  padding-bottom: 0.3em;
+}
+
+#write h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--prism-zero-border);
+  padding-bottom: 0.3em;
+}
+
+#write h3 {
+  font-size: 1.25rem;
+}
+
+#write h4 {
+  font-size: 1.1rem;
+}
+
+#write h5,
+#write h6 {
+  font-size: 1rem;
+  color: var(--control-text-color);
+}
+
+#write a {
+  color: var(--prism-zero-link);
+  text-decoration: none;
+}
+
+#write a:hover {
+  text-decoration: underline;
+}
+
+#write strong {
+  font-weight: 600;
+}
+
+#write em {
+  font-style: italic;
+}
+
+#write del {
+  color: var(--prism-zero-tab-inactive);
+}
+
+#write mark {
+  background-color: var(--prism-zero-line-highlight);
+  color: inherit;
+}
+
+#write blockquote {
+  border-left: 4px solid var(--prism-zero-link);
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  color: var(--prism-zero-quote);
+  background-color: var(--item-hover-bg-color);
+}
+
+#write blockquote blockquote {
+  border-left-color: var(--prism-zero-border);
+}
+
+#write hr {
+  height: 1px;
+  border: none;
+  background-color: var(--prism-zero-border);
+  margin: 2em 0;
+}
+
+#write ul,
+#write ol {
+  padding-left: 2em;
+}
+
+#write li > p {
+  margin: 0.25em 0;
+}
+
+#write table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+#write table th,
+#write table td {
+  border: 1px solid var(--prism-zero-border);
+  padding: 6px 13px;
+}
+
+#write table th {
+  background-color: var(--item-hover-bg-color);
+  font-weight: 600;
+}
+
+#write table tr:nth-child(2n) {
+  background-color: var(--prism-zero-status-bg);
+}
+
+#write code,
+.md-htmlblock-container code {
+  font-family: var(--monospace);
+  font-size: 0.9em;
+  color: var(--code-color);
+  background-color: var(--prism-zero-codeblock-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+#write .md-fences,
+.md-fences {
+  font-family: var(--monospace);
+  font-size: 0.9em;
+  color: var(--prism-zero-codeblock-fg);
+  background-color: var(--prism-zero-codeblock-bg);
+  border: 1px solid var(--prism-zero-border);
+  border-radius: 4px;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+}
+
+#write .md-fences.md-focus {
+  border-color: var(--prism-zero-link);
+}
+
+.md-fences .code-tooltip {
+  background-color: var(--prism-zero-codeblock-bg);
+  border: 1px solid var(--prism-zero-border);
+  color: var(--prism-zero-codeblock-fg);
+}
+
+#write pre.md-meta-block {
+  background-color: var(--prism-zero-codeblock-bg);
+  color: var(--prism-zero-comment);
+  border: 1px solid var(--prism-zero-border);
+  border-radius: 4px;
+  padding: 0.8em 1em;
+  font-family: var(--monospace);
+  font-size: 0.9em;
+}
+
+#write .md-toc {
+  background-color: var(--prism-zero-status-bg);
+  border: 1px solid var(--prism-zero-border);
+  border-radius: 4px;
+  padding: 1em;
+}
+
+#write .md-footnote {
+  color: var(--prism-zero-link);
+}
+
+.task-list-item input {
+  margin-right: 0.4em;
+}
+
+/* CodeMirror — code fences */
+.cm-s-inner {
+  background-color: var(--prism-zero-codeblock-bg);
+  color: var(--prism-zero-syntax-fg);
+}
+
+.cm-s-inner .CodeMirror-gutters {
+  background-color: var(--prism-zero-codeblock-bg);
+  border-right: 1px solid var(--prism-zero-border);
+  color: var(--prism-zero-line-number);
+}
+
+.cm-s-inner .CodeMirror-linenumber {
+  color: var(--prism-zero-line-number);
+}
+
+.cm-s-inner .CodeMirror-cursor {
+  border-left: 1px solid var(--text-color);
+}
+
+.cm-s-inner div.CodeMirror-selected,
+.cm-s-inner.CodeMirror-focused div.CodeMirror-selected {
+  background: var(--prism-zero-syntax-selection);
+}
+
+.cm-s-inner .CodeMirror-line::selection,
+.cm-s-inner .CodeMirror-line > span::selection,
+.cm-s-inner .CodeMirror-line > span > span::selection {
+  background: var(--prism-zero-syntax-selection);
+}
+
+.cm-s-inner .CodeMirror-activeline-background {
+  background: var(--prism-zero-line-highlight);
+}
+
+.cm-s-inner .cm-keyword {
+  color: var(--prism-zero-keyword);
+}
+
+.cm-s-inner .cm-atom,
+.cm-s-inner .cm-number {
+  color: var(--prism-zero-property);
+}
+
+.cm-s-inner .cm-def {
+  color: var(--prism-zero-function);
+}
+
+.cm-s-inner .cm-variable,
+.cm-s-inner .cm-variable-2,
+.cm-s-inner .cm-variable-3,
+.cm-s-inner .cm-builtin,
+.cm-s-inner .cm-qualifier {
+  color: var(--prism-zero-variable);
+}
+
+.cm-s-inner .cm-string,
+.cm-s-inner .cm-string-2 {
+  color: var(--prism-zero-string);
+}
+
+.cm-s-inner .cm-comment {
+  color: var(--prism-zero-comment);
+}
+
+.cm-s-inner .cm-operator {
+  color: var(--prism-zero-operator);
+}
+
+.cm-s-inner .cm-punctuation,
+.cm-s-inner .cm-bracket,
+.cm-s-inner .cm-hr {
+  color: var(--prism-zero-punctuation);
+}
+
+.cm-s-inner .cm-property,
+.cm-s-inner .cm-attribute,
+.cm-s-inner .cm-meta {
+  color: var(--prism-zero-property);
+}
+
+.cm-s-inner .cm-tag {
+  color: var(--prism-zero-function);
+}
+
+.cm-s-inner .cm-link {
+  color: var(--prism-zero-keyword);
+}
+
+.cm-s-inner .cm-error {
+  color: var(--prism-zero-function);
+}
+
+.cm-s-inner .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: var(--prism-zero-keyword) !important;
+}
+
+/* CodeMirror — source mode */
+.cm-s-typora-default .cm-header,
+.cm-s-typora-default .cm-header-1,
+.cm-s-typora-default .cm-header-2,
+.cm-s-typora-default .cm-header-3,
+.cm-s-typora-default .cm-header-4,
+.cm-s-typora-default .cm-header-5,
+.cm-s-typora-default .cm-header-6 {
+  color: var(--prism-zero-heading);
+}
+
+.cm-s-typora-default .cm-link,
+.cm-s-typora-default .cm-url {
+  color: var(--prism-zero-keyword);
+}
+
+.cm-s-typora-default .cm-comment {
+  color: var(--prism-zero-comment);
+}
+
+.cm-s-typora-default .cm-string {
+  color: var(--prism-zero-string);
+}
+
+.cm-s-typora-default .cm-keyword {
+  color: var(--prism-zero-keyword);
+}
+
+.cm-s-typora-default .cm-tag {
+  color: var(--prism-zero-function);
+}
+
+.cm-s-typora-default .cm-attribute {
+  color: var(--prism-zero-property);
+}
+
+.cm-s-typora-default .cm-quote {
+  color: var(--prism-zero-quote);
+}
+
+.CodeMirror-selectedtext {
+  background: var(--select-text-bg-color) !important;
+}
+
+/* Sidebar / file list (CSS variables drive most of this) */
+.sidebar-content,
+.file-list-item,
+#typora-sidebar {
+  color: var(--control-text-color);
+}
+
+.info-panel-tab-wrapper {
+  color: var(--prism-zero-status-fg);
+  background-color: var(--prism-zero-status-bg);
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background-color: var(--active-file-bg-color);
+}
+
+@media print {
+  .typora-export * {
+    -webkit-print-color-adjust: exact;
+  }
+}
