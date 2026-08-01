@@ -161,3 +161,14 @@ pwsh -File .\install-windows-terminal.ps1 -SetActiveScheme Dark
 ## ライセンス
 
 MIT — Copyright (c) Rino, eMotionGraphics Inc.
+
+## 変更履歴
+
+### 1.1.0
+
+- パッケージ版を Prism Zero 1.1.0 に揃えた
+- 拡張 README の対応アプリ一覧に Typora を記載
+
+### 1.0.0
+
+- 初回リリース
