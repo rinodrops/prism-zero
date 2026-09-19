@@ -4,7 +4,7 @@
 
 [PrismJS](https://prismjs.com/) の構文色（UI クロームとダーク背景向けに調整）を基にした、エディタ／端末向けカラーテーマです。Light / Dark の両方を含みます。
 
-対応: Visual Studio Code、Cursor、Panic Nova、Neovim、Typora、iTerm 2、Prompt 3、Ptyxis、Windows Terminal。
+対応: Visual Studio Code、Cursor、Panic Nova、Neovim、Typora、Xcode、Codye、iTerm 2、Prompt 3、Ptyxis、Windows Terminal。
 
 ## スクリーンショット
 
@@ -98,6 +98,14 @@ iTerm 2 と Prompt 3 は手動インポートのままです（スクリプト�
 [`dist/typora/prism-zero-light.css`](dist/typora/prism-zero-light.css) および／または [`prism-zero-dark.css`](dist/typora/prism-zero-dark.css) を Typora のテーマフォルダ（環境設定 → 外観 → テーマフォルダを開く）にコピーし、必要なら Typora を再起動してから、Themes メニューで **Prism Zero Light** または **Prism Zero Dark** を選びます。
 
 ファイル名は小文字とハイフンのみにしてください（Typora の制約）。
+
+### Xcode
+
+[`dist/xcode/Prism Zero Light.xccolortheme`](dist/xcode/Prism%20Zero%20Light.xccolortheme) および／または [`Prism Zero Dark.xccolortheme`](dist/xcode/Prism%20Zero%20Dark.xccolortheme) を `~/Library/Developer/Xcode/UserData/FontAndColorThemes/` にコピーします（フォルダが無ければ作成）。Xcode を完全に終了してから開き直し、Settings → Themes で **Prism Zero Light** または **Prism Zero Dark** を選びます。
+
+### Codye
+
+同じ Xcode カラーテーマを Codye のカスタムテーマ編集（Pro）からインポートします。[`Prism Zero Light.xccolortheme`](dist/xcode/Prism%20Zero%20Light.xccolortheme) または [`Prism Zero Dark.xccolortheme`](dist/xcode/Prism%20Zero%20Dark.xccolortheme) を使います。Codye が Xcode に入っているテーマを一覧する場合は、先に Xcode の節どおりファイルをコピーしてください。
 
 ### Neovim
 
