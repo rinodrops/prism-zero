@@ -4,7 +4,7 @@
 
 Color themes for editors and terminals, based on [PrismJS](https://prismjs.com/) syntax colors (adjusted for UI chrome and dark backgrounds). Light and Dark appearances are included.
 
-Supported: Visual Studio Code, Cursor, Panic Nova, Neovim, Typora, iTerm 2, Prompt 3, Ptyxis, Windows Terminal.
+Supported: Visual Studio Code, Cursor, Panic Nova, Neovim, Typora, Xcode, Codye, iTerm 2, Prompt 3, Ptyxis, Windows Terminal.
 
 ## Screenshots
 
@@ -98,6 +98,14 @@ iTerm 2 and Prompt 3 stay manual import; the script prints `curl` download comma
 Copy [`dist/typora/prism-zero-light.css`](dist/typora/prism-zero-light.css) and/or [`prism-zero-dark.css`](dist/typora/prism-zero-dark.css) into Typora’s theme folder (Preferences → Appearance → Open Theme Folder), restart Typora if needed, then choose **Prism Zero Light** or **Prism Zero Dark** from the Themes menu.
 
 Filenames must stay lowercase with hyphens only (Typora requirement).
+
+### Xcode
+
+Copy [`dist/xcode/Prism Zero Light.xccolortheme`](dist/xcode/Prism%20Zero%20Light.xccolortheme) and/or [`Prism Zero Dark.xccolortheme`](dist/xcode/Prism%20Zero%20Dark.xccolortheme) into `~/Library/Developer/Xcode/UserData/FontAndColorThemes/` (create the folder if needed). Quit Xcode fully and reopen, then choose **Prism Zero Light** or **Prism Zero Dark** under Settings → Themes.
+
+### Codye
+
+Import the same Xcode color themes in Codye’s custom theme editor (Pro). Use [`Prism Zero Light.xccolortheme`](dist/xcode/Prism%20Zero%20Light.xccolortheme) or [`Prism Zero Dark.xccolortheme`](dist/xcode/Prism%20Zero%20Dark.xccolortheme). If Codye lists themes already installed in Xcode, copy the files as in the Xcode section first.
 
 ### Neovim
 
